@@ -16,9 +16,14 @@ header h1 {
   margin:0;
 }
 
-h2 {
+h2, p {
   color: #dde0e4;
 }
+
+h2 {
+  text-align: center;
+}
+
 .dos-columnas {
   display: grid;
   gap: 4rem;
@@ -103,4 +108,32 @@ select{
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.clima{
+
+}
+
+.clima > p:first-of-type{
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  color: #f0f040;
+}
+
+.clima p{
+  text-align: center;
+  margin: 0;
+}
+
+.clima p span{
+  font-size: 1rem;
+  vertical-align: super;
+}
+
+.min-max{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
 }
